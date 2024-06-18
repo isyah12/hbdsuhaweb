@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: rgb(194, 40, 71);
+    font-size: 30px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+
+.parallax {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#pelangi2 {
+    z-index: 1;
+}
+
+#suhaa {
+    z-index: 2;
+}
+
+#bingkai {
+    z-index: 3;
+}
+
+#nama {
+    z-index: 4;
+}
+
+#bintang {
+    z-index: 5;
+}
+
+#matahari {
+    z-index: 6;
+}
+
+.about {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
